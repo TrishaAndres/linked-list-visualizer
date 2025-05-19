@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# 🔗 Linked List Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive React-based web application that **visualizes how a singly linked list works**. Users can add, reset, and observe the live structure of a linked list, helping learners and recruiters alike understand data structures through UI.
 
-## Available Scripts
+Adapted from the original C-style Linked List code in my GitHub repo below:
+📁 **GitHub Repo:** [https://github.com/TrishaAndres/c-linked-list](https://github.com/TrishaAndres/c-linked-list)
 
-In the project directory, you can run:
+<img src="./preview5.png" alt="Linked List Visualizer Screenshot" width="400"/>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+👉 [View on Netlify](https://linkedlists.netlify.app)  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧠 Features
 
-### `npm run build`
+- ✅ Add nodes to the list dynamically
+- 🔁 Watch the list grow and connect (with arrows)
+- 🧼 Reset the list to start fresh
+- ✨ Responsive, modern UI built with **React + CSS**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+src/
+├── components/
+│   ├── LinkedList.js     # Renders full list
+│   ├── Node.js           # Individual node component
+│   └── Controls.js       # Input field and buttons
+├── styles/
+│   └── App.css           # Styling for the app
+├── App.js                # Root app logic
+└── index.js              # Entry point
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠 Technologies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+⚛️ React – UI rendering and state management
+🎨 CSS – Layout and responsive styling
+🔀 uuid – Unique ID generator for node keys
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+💻 Getting Started
 
-## Learn More
+1. Clone the repo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+git clone https://github.com/TrishaAndres/linked-list-visualizer.git
+cd linked-list-visualizer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install dependencies
 
-### Code Splitting
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. Run the development server
 
-### Analyzing the Bundle Size
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Visit http://localhost:3000 in your browser.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📚 What You’ll Learn from This Project
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+How linked lists work under the hood
+How to simulate data structures visually using React state
