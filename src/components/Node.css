@@ -1,0 +1,19 @@
+.node-container {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .node {
+    background-color: #007acc;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .arrow {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
